@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt_br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Binary to Decimal Converter</title>
+
+    <link rel="stylesheet" href="./style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+
+</head>
+<body>
+
+    <div id="container">
+
+        <div class="header-container">
+            <h2>Binary to Decimal</h2>
+        </div>
+        <form>
+            <div class="binToDec">
+                <label for="bin">bin</label>
+                <input class="input-block" id="bin" name="bin" type="number">
+            </div>
+
+            <div class="binToDec">
+                <label for="dec">dec</label>
+                <input class="input-block" id="dec" name="dec" type="number" disabled>
+            </div>
+
+            <button type="button" onclick="converterBinToDec()">convert</button>
+        </form>
+
+    </div>
+
+    <footer>
+            <h5>Desenvolved by Lucas Pedro</h5>
+    </footer>
+
+    <script src="./index.js"></script>
+</body>
+</html>
